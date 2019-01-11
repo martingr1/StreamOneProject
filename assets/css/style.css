@@ -1,14 +1,4 @@
-.logo {
-    float: left;
-}
-
-header {
-    width: 100%;
+.navbar {
     background-color: #000000;
-}
-
-nav ul {
-    list-style-type: none;
-    display: inline-block;
-    list-style: none;
+    width: 100%;
 }

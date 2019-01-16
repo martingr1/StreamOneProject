@@ -1,7 +1,11 @@
-.navbar-brand {
-    margin: 20px;
+body {
+    padding-top: 70px
 }
 
+.navbar-brand {
+    margin: 20px;
+    padding: 0;
+}
 
 .bg-img {
     border: none;
@@ -10,34 +14,79 @@
     -moz-background-size: cover;
     -webkit-background-size: cover;
     min-height: 368px;
+    background-repeat: no-repeat;
     background-position: top;
     position: relative;
-    padding: 0;
-    margin:0;
 }
 
 .announcement-banner {
     background-color: #D3D3D3;
-    margin:0;
+    margin: 0 auto;
 }
 
 .sign-up {
+    bottom: 25px;
+    margin: 0px;
     left:0;
-    bottom:50px;
-    margin: 20px;
     padding: 16px;
 }
 
-
 .announcement-text {
     color: #8B0000;
-    margin: 20px;
-    left:0;
-    bottom:50px;
+    left: 0;
+    bottom: 50px;
     padding: 16px;
+    text-align: center;
 }
 
 .btn-primary {
     background-color: #8B0000;
     border: none;
 }
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 0; 
+    overflow: hidden;
+}
+
+.main-video-container {
+    background-color: #8B0000;
+    margin: 0;
+}
+.video-title {
+    color: #D3D3D3;
+    justify-content: center;
+    top: auto;
+}
+
+.more-videos {
+    text-decoration: none;
+}
+
+.footer {
+        width: 100%;
+        height: 12%;
+        display: flex;
+        align-items: center;
+        background-size: 100% 100%;
+        justify-content: center;
+    }
+
+.footer-text {
+    text-align: center;
+}
+
+.footer-image img {
+    border: none;
+    display: block;
+    margin: 0 auto;
+    max-height: 50px;
+    max-width: 150px;
+    padding-top: 10px;
+}
+

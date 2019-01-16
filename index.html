@@ -6,84 +6,134 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
-    <meta name="viewport" content="width=device-width, initial-scale-1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale-1" />
 </head>
 
 <body>
-    <header class="header">
 
-        <!----------- Top navigation bar --------------->
+    <!----------- Top navigation bar --------------->
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a href="#" class="navbar-brand d-flex w-60">LED ZEPPELIN</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <a href="#" class="navbar-brand d-flex w-60">LED ZEPPELIN</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
         <span class="navbar-toggler-icon"></span></button>
-            <div class="flex-row navbar-collapse collapse w-100" id="collapsingNavbar">
-                <ul class="navbar-nav w-100">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Music</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Video</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="#"><i class="fa fa-spotify"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="#"><i class="fa fa-instagram"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="#"><i class="fa fa-youtube"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+        <div class="flex-row navbar-collapse collapse w-100" id="collapsingNavbar">
+            <ul class="navbar-nav w-100 justify content-center">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Music</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Video</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto w-100 justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="#"><i class="fa fa-spotify"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <!----------- Top navigation bar --------------->
 
     <!------------ Main image & form-------------------->
 
-    <div class="bg-img col-sm-12">
-        <div class="row announcement-banner col-sm-12">
-            <div class="row">
-                <h2 class="announcement-text">We're back! Don't miss out, sign up for our newsletter now!</h2>
-                <form>
+    <div class="bg-img col-sm-12"></div>
+    <div class="container-fluid announcement-banner">
+        <div class="row no-gutters">
+            <h3 class="announcement-text">We're back! Don't miss out, sign up for our newsletter now!</h3>
+            <form>
+                <div class="form-group col-sm-12">
                     <div class="sign-up form-row">
-                        <div class="col-sm-12 col-md-4">
+                        <div class="col-12">
                             <input type="text" class="form-control" placeholder="Your Name">
                         </div>
-                        <div class="col-sm-12 col-md-4">
-                            <input type="email" class="form-control" placeholder="Your Email Address">
+                        <div class="col-12">
+                            <input type="email" class="form-control" placeholder="Your Email">
                         </div>
-                        <button type="submit" class="btn btn-primary"> Sign Up!</button>
+                        <button type="submit" class="btn btn-primary col-12"> Sign Up!</button>
                     </div>
-                </form>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-------------- Main image & form -------------------->
+
+    <!-------------- Video section ------------------------->
+    <div class="container-fluid main-video-container">
+        <div class="row no-gutters video-title col-sm-12">
+            <h3><br>Led Zeppelin - "Whole lotta love"</h3>
+        </div>
+        <div class="container video-container">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="100%" height="100%" src="https://www.youtube.com/embed/HQmmM_qwG4k" allowfullscreen></iframe>
+            </div>
+            <div class="row no-gutters video-title col-sm-12">
+                <a href=""></a>
+                <h3><a class="more-videos" href="#">Click here to see more of our videos!</a></h3>
             </div>
         </div>
     </div>
 
-    <!-------------- Main image & form -------------------->
+    <!-------------- Video section ------------------------->
 
-    <!-------------- News section ------------------------->
+    <!-------------- Tour dates ---------------------------->
 
+    <!-------------- <a href="tourdates.html" class="bbtn.tickets"><i class="fa fa-ticket fa-2x"></i> Get Tickets</a> ------------------>
 
+    <!-------------- Footer section ------------------------->
 
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row no-gutters footer-image"><img src="/assets/images/logo.png"></img>
+            </div>
+            <h4 class="footer-text">Subscribe now!</h4>
+            <div class="sign-up form-row">
+                <div class="form-group col-md-6 col-sm-12">
+                    <div class="col-12">
+                        <input type="text" class="form-control" placeholder="Your Name">
+                    </div>
+                    <div class="col-12">
+                        <input type="email" class="form-control" placeholder="Your Email">
+                    </div>
+                    <button type="submit" class="btn btn-primary col-12"> Sign Up!</button>
+                </div>
+            </div>
+            <ul class="list-inline row no-gutters justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="#"><i class="fa fa-spotify"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    
+    <!-------------- Footer section ------------------------->
+    
 </body>
 
-<footer>
-
-</footer>
 
 </html>

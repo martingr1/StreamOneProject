@@ -27,7 +27,7 @@ body {
 .sign-up {
     bottom: 25px;
     margin: 0px;
-    left:0;
+    left: 0;
     padding: 16px;
 }
 
@@ -47,35 +47,50 @@ body {
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    height: 0; 
+    height: 0;
     overflow: hidden;
 }
 
-.main-video-container {
+.main-music-container {
     background-color: #8B0000;
     margin: 0;
 }
+
+
+
+.main-video-container {
+    background-color: #8B0000;
+    margin: auto;
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+
 .video-title {
     color: #D3D3D3;
-    justify-content: center;
     top: auto;
 }
 
 .more-videos {
     text-decoration: none;
+    color: #D3D3D3;
 }
 
 .footer {
-        width: 100%;
-        height: 12%;
-        display: flex;
-        align-items: center;
-        background-size: 100% 100%;
-        justify-content: center;
-    }
+    width: 100%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    background-size: 100% 100%;
+    justify-content: center;
+}
 
 .footer-text {
     text-align: center;
@@ -87,6 +102,16 @@ body {
     margin: 0 auto;
     max-height: 50px;
     max-width: 150px;
-    padding-top: 10px;
+    padding-top: 20px;
+}
+
+.music-container {
+    background-color: #D3D3D3;
+    align-items: center;
+}
+
+.more-music {
+    text-decoration: none;
+    color: #8B0000;
 }
 

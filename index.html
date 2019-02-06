@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale-1" />
 </head>
@@ -13,15 +15,14 @@
 
     <!----------- Top navigation bar --------------->
 
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-        <a href="index.html" class="navbar-brand d-flex w-60">LED ZEPPELIN</a>
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="index.html">
+    <img src="/assets/images/logo.png" alt="Logo" style="width:150px;">
+    </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
         <span class="navbar-toggler-icon"></span></button>
         <div class="flex-row navbar-collapse collapse w-100" id="collapsingNavbar">
             <ul class="navbar-nav w-100 justify content-center">
-                <li class="nav-item active">
-                    <a class="nav-link" href="videos.html">Video</a>
-                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="music.html">Music</a>
                 </li>
@@ -29,21 +30,7 @@
                     <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav ml-auto w-100 justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="#"><i class="fa fa-spotify"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="#"><i class="fa fa-instagram"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="#"><i class="fa fa-youtube"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
@@ -53,22 +40,20 @@
 
     <!------------ Main image & form-------------------->
 
-    <div class="bg-img"></div>
+    <div class="container-fluid main-image-container">
+        <img class="bg-img" src="/assets/images/main-image.jpg"></img>
+    </div>
     <div class="container-fluid announcement-banner">
         <div class="row no-gutters justify-content-center">
             <h3 class="announcement-text">We're back! Don't miss out, sign up for our newsletter now!</h3>
         </div>
-        <div class="row no-gutters justify-content-center">
+        <div class="row no-gutters justify-content-center col-12">
             <form>
                 <div class="form-group">
                     <div class="sign-up form-row">
-                        <div class="col-12">
-                            <input type="text" class="form-control" placeholder="Your Name">
-                        </div>
-                        <div class="col-12">
-                            <input type="email" class="form-control" placeholder="Your Email">
-                        </div>
-                        <button type="submit" class="btn btn-primary col-12"> Sign Up!</button>
+                        <input type="text" class="form-control" placeholder="Your Name">
+                        <input type="email" class="form-control" placeholder="Your Email">
+                        <button type="submit" class="btn btn-primary"> Sign Up!</button>
                     </div>
                 </div>
             </form>
@@ -78,30 +63,38 @@
 
     <!-------------- News section ------------------------->
 
-    <section id="content">
+    <article class="article">
         <div class="container-fluid main-news-container">
-            <div class="row no-gutters justify-content-center">
-                <img src="/assets/images/led-zep2019.jpg" class="img-fluid img-thumbnail" alt="Led Zeppelin in 2019"></img>
-            </div>
             <div class="row no-gutters news-title justify-content-center">
                 <h5><br><i class="fa fa-newspaper-o"></i> Latest Led Zeppelin News</h5>
             </div>
-            <div class="row justify-content-center">
-                <p>After years of hiatus, we're pleased to announce that we're coming back for a limited number of small venue gigs.<br> If you're interested in booking, please contact our management through the contact page or click below.</p>
+            <hr class="spacer">
+            <div class="row no-gutters justify-content-center">
+                <img src="/assets/images/led-zep2019.jpg" class="img-fluid img-thumbnail news-img" alt="Led Zeppelin in 2019"></img>
+                <div class="row no-gutters justify-content-center">
+                    <div class="row no-gutters text-center">
+                        <h5><br><i class="fa fa-newspaper-o"></i> Coming to a venue near you soon!</h5>
+                    </div>
+                    <div class="row no-gutters text-center">
+                        <p>After years of hiatus, we're pleased to announce that we're coming back for a limited number of small venue gigs.<br> If you're interested in booking, please contact our management through the contact page in the menu above.<br>                            Whether it's a wedding or private party, let us help make your day even more special!<br>
+                        </p>
+                    </div>
+                </div>
             </div>
+            <hr class="spacer">
         </div>
-    </section>
-
+    </article>
     <!-------------- News section ------------------------->
 
 
     <!-------------- Video section ------------------------->
 
- <div class="container-fluid main-video-container">
-        <div class="row">
+    <div class="container-fluid main-video-container justify-content-center">
+        <div class="row no-gutters">
             <div class="col-xs-12 main-video">
                 <div class="video-title text-center">
                     "Over the Hills and Far Away"
+                    <hr> Houses of the Holy, 1973
                 </div>
                 <video width="100%" height="100%" controls>
                   <source src="/assets/Video/Overthehills.mp4" type="video/mp4">
@@ -115,25 +108,28 @@
 
     <!-------------- Music section ---------------------------->
 
-    <div class="container-fluid music-container">
-        <div class="row no-gutters">
-            <div class="col-xs-12 col-md-6">
-                <img class="album" src="/assets/images/Led_Zeppelin_-_Led_Zeppelin_(1969)_front_cover.png" class="img-thumbnail"></img>
-                <h5><br>"Communication Breakdown"</h5>
-                <audio controls>
+    <div class="container-fluid main-music-container">
+        <div class="row no-gutters music-title justify-content-center">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 main-music text-center">
+                    <img src="/assets/images/Led_Zeppelin_-_Led_Zeppelin_(1969)_front_cover.png" class="img-thumbnail"></img>
+                    <h5><br>"Communication Breakdown"</h5>
+                    <audio controls>
                     <source src="/assets/Music/CommunicationBreakdown.mp3" type="audio/ogg">
                 </audio>
-            </div>
-            <div class="col-xs-12 col-md-6">
-                <img class="album" src="/assets/images/Led_Zeppelin_-_Led_Zeppelin_III.png"></img>
-                <h5><br>"Immigrant Song"</h5>
-                <audio controls>
+                </div>
+                <div class="col-xs-12 col-md-6 main-music text-center">
+                    <img src="/assets/images/Led_Zeppelin_-_Led_Zeppelin_III.png"></img>
+                    <h5><br>"Immigrant Song"</h5>
+                    <audio controls>
                     <source src="/assets/Music/ImmigrantSong.mp3" type="audio/ogg">
                 </audio>
+                </div>
+                <div class="row no-gutters">
+                    <hr class="spacer">
+                    <h2><a class="more-music" href="music.html">Click to hear more classic Zeppelin!</a></h2>
+                </div>
             </div>
-        </div>
-        <div class="row no-gutters justify-content-center">
-            <h5><a class="more-music" href="music.html">Click to hear more classic Zeppelin!</a></h3>
         </div>
     </div>
 
@@ -142,18 +138,6 @@
     <footer class="footer">
         <div class="container-fluid">
             <div class="row no-gutters footer-image"><img src="/assets/images/logo.png"></img>
-            </div>
-            <h4 class="footer-text">Subscribe now!</h4>
-            <div class="sign-up form-row justify-content-center">
-                <div class="form-group col-md-6 col-sm-12">
-                    <div class="col-12">
-                        <input type="text" class="form-control" placeholder="Your Name">
-                    </div>
-                    <div class="col-12">
-                        <input type="email" class="form-control" placeholder="Your Email">
-                    </div>
-                    <button type="submit" class="btn btn-primary col-12"> Sign Up!</button>
-                </div>
             </div>
             <ul class="list-inline row no-gutters justify-content-center">
                 <li class="nav-item">
@@ -173,7 +157,6 @@
     </footer>
 
     <!-------------- Footer section ------------------------->
-
 </body>
 
 

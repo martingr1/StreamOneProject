@@ -1,5 +1,7 @@
 body {
-    padding-top: 70px
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
 }
 
 .navbar-brand {
@@ -7,16 +9,13 @@ body {
     padding: 0;
 }
 
+.main-image-container {
+    padding: 0;
+}
+
 .bg-img {
-    border: none;
-    background-image: url(/assets/images/main-image.jpg);
-    background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    min-height: 368px;
-    background-repeat: no-repeat;
-    background-position: top;
-    position: relative;
+    width: 100%;
+    height: auto;
 }
 
 .announcement-banner {
@@ -44,38 +43,19 @@ body {
     border: none;
 }
 
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 0;
-    overflow: hidden;
-}
-
-.main-music-container {
-    background-color: #8B0000;
-    margin: 0;
-}
-
-
-
 .main-video-container {
     background-color: #8B0000;
-    margin: auto;
     position: relative;
-    padding-bottom: 50%;
-    padding-top: 20px;
+    padding-bottom: 10%;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 5%;
     overflow: hidden;
 }
-
 
 .video-title {
     color: #D3D3D3;
-    top: auto;
+    padding: 1%;
 }
 
 .more-videos {
@@ -105,9 +85,12 @@ body {
     padding-top: 20px;
 }
 
-.music-container {
+.main-music-container {
     background-color: #D3D3D3;
     align-items: center;
+    padding-top: 10%;
+    margin: auto;
+    border: none;
 }
 
 .more-music {
@@ -115,3 +98,42 @@ body {
     color: #8B0000;
 }
 
+.main-video {
+    padding: 10%;
+    margin: auto;
+    max-width: 600px;
+}
+
+.main-music {
+    padding-bottom: 2%;
+}
+
+.news-img {
+    padding: 0;
+    border: none;
+}
+
+.spacer {
+    line-height: 10px;
+    color: #8B0000;
+    width: 50%;
+    padding: 1%;
+}
+
+.about-container {
+    background-color: #D3D3D3;
+}
+
+.contact-container {
+    background-color: #8B0000;
+}
+
+.bg-img-about {
+    max-width: 100%;
+    padding-top: 1%;
+}
+
+.main-form {
+    padding-top: 1%;
+    background-color: #D3D3D3;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale-1" />
+</head>
+
+<body>
+
+    <!----------- Top navigation bar --------------->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="index.html">
+    <img src="/assets/images/logo.png" alt="Logo" style="width:150px;">
+    </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+        <span class="navbar-toggler-icon"></span></button>
+        <div class="flex-row navbar-collapse collapse w-100" id="collapsingNavbar">
+            <ul class="navbar-nav w-100 justify content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="music.html">Music</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!----------- Top navigation bar --------------->
+
+    <!----------- Contact Form ------------------>
+    <div class="container-fluid main-form justify-content-center col-7">
+        <div class="row no-gutters text-center">
+            <br>
+            <h4>Contact Us</h4>
+            <hr class="spacer">
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Your Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Event Type</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                              <option>Wedding</option>
+                              <option>Private Party</option>
+                              <option>Other (Please Specify Below)</option>
+                            </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Additional Information</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+            </div>
+            <button type="button" class="btn btn-dark">Submit</button>
+        </form>
+    </div>
+    <!----------- Contact Form ------------------>
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row no-gutters footer-image"><img src="/assets/images/logo.png"></img>
+            </div>
+            <ul class="list-inline row no-gutters justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="#"><i class="fa fa-spotify"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>

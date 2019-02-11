@@ -2,13 +2,20 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">" />
+    <title>Led Zeppelin</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Led Zeppelin">
+    <meta name="keywords" content="Led Zeppelin news, audio and video">
+    <meta name="author" content="Martin Russell">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
-    <meta name="viewport" content="width=device-width, initial-scale-1" />
 </head>
 
 <body>
@@ -36,30 +43,45 @@
         </div>
     </nav>
 
-    <!----------- Top navigation bar --------------->
-
     <!------------ Main image & form-------------------->
 
     <div class="container-fluid main-image-container">
-        <img class="bg-img" src="/assets/images/main-image.jpg"></img>
+        <img class="bg-img" src="/assets/images/main-image.jpg" alt="" />
     </div>
     <div class="container-fluid announcement-banner">
         <div class="row no-gutters justify-content-center">
             <h3 class="announcement-text">We're back! Don't miss out, sign up for our newsletter now!</h3>
         </div>
-        <div class="row no-gutters justify-content-center col-12">
+        <div class="row no-gutters justify-content-center">
             <form>
-                <div class="form-group">
-                    <div class="sign-up form-row">
-                        <input type="text" class="form-control" placeholder="Your Name">
-                        <input type="email" class="form-control" placeholder="Your Email">
-                        <button type="submit" class="btn btn-primary"> Sign Up!</button>
-                    </div>
+                <div class="sign-up text-center">
+                    <input type="text" class="form-control" placeholder="Your Name">
+                    <input type="email" class="form-control" placeholder="Your Email">
+                    <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#indexModal"> Sign Up!</button>
                 </div>
             </form>
         </div>
     </div>
-    <!-------------- Main image & form -------------------->
+
+    <div class="modal fade" id="indexModal" tabindex="-1" role="dialog" aria-labelledby="indexModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="indexModal">Confirmation</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="row no-gutters footer-image"><img src="/assets/images/logo.png" alt="" /> </div>
+                    <br>Thank you for signing up!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-------------- News section ------------------------->
 
@@ -70,26 +92,28 @@
             </div>
             <hr class="spacer">
             <div class="row no-gutters justify-content-center">
-                <img src="/assets/images/led-zep2019.jpg" class="img-fluid img-thumbnail news-img" alt="Led Zeppelin in 2019"></img>
-                <div class="row no-gutters justify-content-center">
-                    <div class="row no-gutters text-center">
-                        <h5><br><i class="fa fa-newspaper-o"></i> Coming to a venue near you soon!</h5>
-                    </div>
-                    <div class="row no-gutters text-center">
-                        <p>After years of hiatus, we're pleased to announce that we're coming back for a limited number of small venue gigs.<br> If you're interested in booking, please contact our management through the contact page in the menu above.<br>                            Whether it's a wedding or private party, let us help make your day even more special!<br>
-                        </p>
-                    </div>
+                <img src="/assets/images/led-zep2019.jpg" class="img-fluid img-thumbnail news-img" alt="Led Zeppelin in 2019" />
+            </div>
+            <div class="row no-gutters justify-content-center">
+                <div class="row no-gutters text-center">
+                    <h5><br>Coming to a venue near you soon!</h5>
                 </div>
             </div>
-            <hr class="spacer">
+            <div class="row no-gutters">
+                <p>After years of hiatus, we're pleased to announce that we're coming back for a limited number of small venue gigs.<br> If you're interested in booking, please contact our management through the contact page in the menu above.<br> Whether
+                    it's a wedding or private party, let us help make your day even more special!<br>
+                </p>
+            </div>
         </div>
+        <hr class="spacer">
     </article>
-    <!-------------- News section ------------------------->
-
 
     <!-------------- Video section ------------------------->
 
-    <div class="container-fluid main-video-container justify-content-center">
+    <div class="container-fluid main-video-container">
+        <div class="row no-gutters video-title justify-content-center">
+            <h4>Music video</h4>
+        </div>
         <div class="row no-gutters">
             <div class="col-xs-12 main-video">
                 <div class="video-title text-center">
@@ -104,60 +128,60 @@
         </div>
     </div>
 
-    <!-------------- Video section ------------------------->
-
     <!-------------- Music section ---------------------------->
 
     <div class="container-fluid main-music-container">
+        <div class="row no-gutters justify-content-center">
+            <h4>Songs</h4>
+        </div>
         <div class="row no-gutters music-title justify-content-center">
             <div class="row">
                 <div class="col-xs-12 col-md-6 main-music text-center">
-                    <img src="/assets/images/Led_Zeppelin_-_Led_Zeppelin_(1969)_front_cover.png" class="img-thumbnail"></img>
-                    <h5><br>"Communication Breakdown"</h5>
+                    <img src="/assets/images/Led_Zeppelin_-_Led_Zeppelin_(1969)_front_cover.png" class="img-thumbnail" alt="" />
+                    <h5><br>"Communication Breakdown"<br>Led Zeppelin, 1968</h5>
                     <audio controls>
                     <source src="/assets/Music/CommunicationBreakdown.mp3" type="audio/ogg">
                 </audio>
+                    <hr class="spacer">
                 </div>
                 <div class="col-xs-12 col-md-6 main-music text-center">
-                    <img src="/assets/images/Led_Zeppelin_-_Led_Zeppelin_III.png"></img>
-                    <h5><br>"Immigrant Song"</h5>
+                    <img src="/assets/images/Led_Zeppelin_-_Led_Zeppelin_III.png" class="img-thumbnail" alt="" />
+                    <h5><br>"Immigrant Song"<br>Led Zeppelin III, 1970</h5>
                     <audio controls>
+                        <hr class="spacer">
                     <source src="/assets/Music/ImmigrantSong.mp3" type="audio/ogg">
                 </audio>
                 </div>
-                <div class="row no-gutters">
+                <div class="col no-gutters text-center">
                     <hr class="spacer">
-                    <h2><a class="more-music" href="music.html">Click to hear more classic Zeppelin!</a></h2>
+                    <h5><a class="more-music" href="music.html">Click to hear more!</a></h5>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-------------- Music section ------------------------->
+    <!-------------- Footer section ------------------------->
 
     <footer class="footer">
         <div class="container-fluid">
-            <div class="row no-gutters footer-image"><img src="/assets/images/logo.png"></img>
+            <div class="row no-gutters footer-image"><img src="/assets/images/logo.png" alt="" />
             </div>
-            <ul class="list-inline row no-gutters justify-content-center">
+            <ul class="list-inline row no-gutters justify-content-center social-links">
                 <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="#"><i class="fa fa-spotify"></i></a>
+                    <a class="nav-link" target="_blank" href="https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp?si=CsOlG4O7SUuPHf03V2JHPQ"><i class="fa fa-spotify"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                    <a class="nav-link" target="_blank" href="https://www.instagram.com/ledzeppelin/?hl=en"><i class="fa fa-instagram"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+                    <a class="nav-link" target="_blank" href="https://www.youtube.com/user/ledzeppelin?gl=GB&hl=en-GB"><i class="fa fa-youtube"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                    <a class="nav-link" target="_blank" href="https://en-gb.facebook.com/ledzeppelin/"><i class="fa fa-facebook"></i></a>
                 </li>
             </ul>
         </div>
     </footer>
-
-    <!-------------- Footer section ------------------------->
 </body>
-
 
 </html>

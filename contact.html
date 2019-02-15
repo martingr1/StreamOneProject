@@ -2,6 +2,9 @@
 <html>
 
 <head>
+
+    <title>Led Zeppelin - Music</title>
+
     <meta charset="UTF-8">
     <meta name="description" content="Led Zeppelin">
     <meta name="keywords" content="Led Zeppelin news, audio and video">
@@ -18,9 +21,9 @@
 
 <body>
 
-    <!----------- Top navigation bar --------------->
+    <!--** Navigation bar **-->
 
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
         <a class="navbar-brand" href="index.html">
     <img src="/assets/images/logo.png" alt="Logo" style="width:150px;">
     </a>
@@ -42,10 +45,11 @@
     </nav>
 
 
-    <!----------- Contact Form ------------------>
+    <!--** Contact form **-->
+
     <div class="container-fluid main-form">
         <div class="row no-gutters justify-content-center">
-            <img src="/assets/images/zeptoday.jpg" alt="Led Zeppelin 2019" class="img-fluid bg-img-about"></img>
+            <img src="/assets/images/zeptoday.jpg" alt="Led Zeppelin 2019" class="bg-img-about"></img>
             <div class="main-form col-md-8">
                 <br>
                 <h4 class="text-center">Contact Us</h4>
@@ -54,15 +58,15 @@
                     <form>
                         <div class="form-group">
                             <label for="name">Your Name</label>
-                            <input type="text" class="form-control" id="name-input" placeholder="Your Name">
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
                         </div>
                         <div class="form-group">
                             <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email-input" placeholder="name@example.com">
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
                         </div>
                         <div class="form-group">
                             <label for="event-type">Event Type</label>
-                            <select class="form-control" id="event-input">
+                            <select class="form-control" id="event-type">
                               <option>Wedding</option>
                               <option>Private Party</option>
                               <option>Other (Please Specify Below)</option>
@@ -70,10 +74,10 @@
                         </div>
                         <div class="form-group">
                             <label for="additional-info">Additional Information</label>
-                            <textarea class="form-control" id="info-input" rows="6"></textarea>
+                            <textarea class="form-control" id="additional-info" rows="6" required></textarea>
                         </div>
                         <div class="text-center">
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Submit</button>
+                            <button type="submit" value="send" class="btn btn-primary">Submit</button>
                         </div>
                     </form>
                 </div>
@@ -81,27 +85,7 @@
         </div>
     </div>
 
-    <!----------- Modal------------------>
-
-    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModal" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="contactModal">Confirmation</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-                </div>
-                <div class="modal-body text-center">
-                    <div class="row no-gutters footer-image"><img src="/assets/images/logo.png" alt="" /> </div>
-                    <br>Thank you, we will be in touch within 48 hours.
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!--** Footer **-->
 
     <footer class="footer">
         <div class="container-fluid">

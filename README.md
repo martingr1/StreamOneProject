@@ -96,19 +96,19 @@ The text for about.html was copied from the Wikipedia article on Led Zeppelin an
 
 The photos used in this site were obtained from the following:
 
-[Jimmy Page](https://www.allposters.com/-sp/Led-Zeppelin-Jimmy-Page-Earls-Court-1975-Posters_i9451964_.htm)
-[Jason Bonham](https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Jason_Bonham_2009.jpg/440px-Jason_Bonham_2009.jpg)
-[Robert Plant](http://www.brooklynvegan.com/files/2016/12/best-of-2016-040.jpg?w=630&h=945&zc=1&s=0&a=t&q=89)
-[John Paul Jones](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/John_Paul_Jones_-_2010.jpg/440px-John_Paul_Jones_-_2010.jpg)
-[About Image](http://townsquare.media/site/295/files/2014/10/Led-Zeppelin1.jpg?w=980&q=75)
-[Main Image](https://www.rollingstone.com/wp-content/uploads/2018/06/led-zeppelin-iv-album-release-review-35c87652-3510-4318-9145-25a24db837f5.jpg?crop=900:600&width=1910)
-[Logo](https://thriftyzone-thriftysigns.netdna-ssl.com/wp-content/uploads/2018/05/Led-Zeppelin.jpg)
-[Contact Image](https://mm.aiircdn.com/5/5bc0a39312fdf.jpg)
-[Led Zeppelin Album](https://upload.wikimedia.org/wikipedia/en/e/ef/Led_Zeppelin_-_Led_Zeppelin_%281969%29_front_cover.png)
-[Led Zeppelin III Album](https://upload.wikimedia.org/wikipedia/en/5/5f/Led_Zeppelin_-_Led_Zeppelin_III.png)
-[Coda Album](https://upload.wikimedia.org/wikipedia/commons/c/c1/Led_Zeppelin_-_Coda.jpg)
-[Presence Album](https://upload.wikimedia.org/wikipedia/en/f/f3/Led_Zeppelin_-_Presence.jpg)
-[Physical Graffiti Album](https://upload.wikimedia.org/wikipedia/en/e/e3/Led_Zeppelin_-_Physical_Graffiti.jpg)
+1. [Jimmy Page](https://www.allposters.com/-sp/Led-Zeppelin-Jimmy-Page-Earls-Court-1975-Posters_i9451964_.htm)
+2. [Jason Bonham](https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Jason_Bonham_2009.jpg/440px-Jason_Bonham_2009.jpg)
+3. [Robert Plant](http://www.brooklynvegan.com/files/2016/12/best-of-2016-040.jpg?w=630&h=945&zc=1&s=0&a=t&q=89)
+4. [John Paul Jones](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/John_Paul_Jones_-_2010.jpg/440px-John_Paul_Jones_-_2010.jpg)
+5. [About Image](http://townsquare.media/site/295/files/2014/10/Led-Zeppelin1.jpg?w=980&q=75)
+6. [Main Image](https://www.rollingstone.com/wp-content/uploads/2018/06/led-zeppelin-iv-album-release-review-35c87652-3510-4318-9145-25a24db837f5.jpg?crop=900:600&width=1910)
+7. [Logo](https://thriftyzone-thriftysigns.netdna-ssl.com/wp-content/uploads/2018/05/Led-Zeppelin.jpg)
+8. [Contact Image](https://mm.aiircdn.com/5/5bc0a39312fdf.jpg)
+9. [Led Zeppelin Album](https://upload.wikimedia.org/wikipedia/en/e/ef/Led_Zeppelin_-_Led_Zeppelin_%281969%29_front_cover.png)
+10. [Led Zeppelin III Album](https://upload.wikimedia.org/wikipedia/en/5/5f/Led_Zeppelin_-_Led_Zeppelin_III.png)
+11. [Coda Album](https://upload.wikimedia.org/wikipedia/commons/c/c1/Led_Zeppelin_-_Coda.jpg)
+12. [Presence Album](https://upload.wikimedia.org/wikipedia/en/f/f3/Led_Zeppelin_-_Presence.jpg)
+13. [Physical Graffiti Album](https://upload.wikimedia.org/wikipedia/en/e/e3/Led_Zeppelin_-_Physical_Graffiti.jpg)
 
 # Disclaimer
 

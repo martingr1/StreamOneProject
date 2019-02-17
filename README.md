@@ -1,10 +1,9 @@
-# Stream One User Centric Frontend Development Milestone project
+# _Stream One User Centric Frontend Development Milestone Project for the Code Institute_
 
-### This is my milestone project website for a 1960's rock band (Led Zeppelin) returning to the gig scene. 
+## This is my milestone project website for a 1960's rock band (Led Zeppelin) returning to the gig scene. 
 
-### The site highlights one video and 6 audio files from their back catalogue, 
-### has band profiles and a brief history, allows visitors to sign up to a newsletter or contact the band 
-### via a contact form to book them.
+## The site highlights one video and 6 audio files from their back catalogue, has band profiles and a brief history, allows visitors to sign up to a newsletter or contact the band 
+## via a contact form to book them.
 
 
 # UX
@@ -14,17 +13,17 @@ My goal was to keep the design as simple as possible, whilst making media files 
 I opted for a grey, white and red colour scheme that fits with the Led Zeppelin brand.
 
 For fans of the band, I wanted to make sure that audio and video files were easily found and played, whilst they could also
-contact the band if they wanted to book them for a private event as well as sign up to a newsletter..
+contact the band if they wanted to book them for a private event as well as sign up to a newsletter.
 
 # User Stories
 
 1) As a fan of Led Zeppelin I want to contact the band so that I can book them for a private event.
 2) As a fan of Led Zeppelin I want to access the band's back catalogue so I can listen to their music and watch video.
-3) As a fan of Led Zeppelin I want to sign up to social media and a newsletter so that I can be kept informed on tour dates and album releases.
+3) As a fan of Led Zeppelin I want to sign up to social media and a newsletter so that I can be kept informed of tour dates and album releases.
 
 ## Wireframes and mockups are [here](linktofollow)
 
-# Features
+## _Features_
 
 # Existing Features
 
@@ -32,22 +31,23 @@ The site features a Bootstrap 4 navbar that uses jQuery to automatically collaps
 
 In addition, using an @media query the announcement banner will move upwards on medium and large devices so that it becomes more prominent and stands out.
 
-# Features Left to Implement
+## Features Left to Implement
 
 In future, I would like to implement a dynamic news section with a variety of sources. 
 
 I would also like to implement modal confirmation messages upon successful form completion with full 'post' capability for forms.
 
+In addition, as the site becomes more complex with additional media, a search bar on the navbar would be implemented.
 
-# Technologies Used
+## _Technologies Used_
 
-Bootstrap 4.0 - layout, positioning
-Font Awesome 4.7.0 - social media and news icons
-jQuery - navbar collapsing
+Bootstrap 4.0 for general layout, positioning.
+Font Awesome 4.7.0 for social media and news icons.
+jQuery for navbar collapsing on smaller devices.
 
-# Testing
+# _Testing_
 
-# Responsiveness
+## Responsiveness
 
 The project was developed with a 'mobile-first' philosophy in mind and was used on a variety of devices to test its responsiveness.
 
@@ -59,7 +59,7 @@ Devices used to test were:
 >Apple iPad
 >Apple MacBook Pro
 
-The project was able to be displayed as intended on all devices, with full responsiveness.
+The project was able to be displayed as intended on all devices and browsers, with full responsiveness.
 
 ## The fan user stories are split into three parts covering the desire to book, use media and sign up to a newsletter/social media.
 
@@ -83,23 +83,38 @@ If all inputs are correct, the page will reload.
 A user is also able to navigate to the relevant social media profiles for the band using the linked icons in the footer at the bottom of each page.
 When clicked, the user will be redirected to the relevant profile in a separate browser.
 
-# Deployment
+# _Deployment_
 
 The project is hosted in my [GitHub repository](linktofollow)
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+# _Credits_
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+## Content
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+The text for about.html was copied from the Wikipedia article on Led Zeppelin and the respective band members https://en.wikipedia.org/wiki/Led_Zeppelin .
 
-# Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
+## Media
+
+The photos used in this site were obtained from the following:
+
+[Jimmy Page](https://www.allposters.com/-sp/Led-Zeppelin-Jimmy-Page-Earls-Court-1975-Posters_i9451964_.htm)
+[Jason Bonham](https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Jason_Bonham_2009.jpg/440px-Jason_Bonham_2009.jpg)
+[Robert Plant](http://www.brooklynvegan.com/files/2016/12/best-of-2016-040.jpg?w=630&h=945&zc=1&s=0&a=t&q=89)
+[John Paul Jones](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/John_Paul_Jones_-_2010.jpg/440px-John_Paul_Jones_-_2010.jpg)
+[About Image](http://townsquare.media/site/295/files/2014/10/Led-Zeppelin1.jpg?w=980&q=75)
+[Main Image](https://www.rollingstone.com/wp-content/uploads/2018/06/led-zeppelin-iv-album-release-review-35c87652-3510-4318-9145-25a24db837f5.jpg?crop=900:600&width=1910)
+[Logo](https://thriftyzone-thriftysigns.netdna-ssl.com/wp-content/uploads/2018/05/Led-Zeppelin.jpg)
+[Contact Image](https://mm.aiircdn.com/5/5bc0a39312fdf.jpg)
+[Led Zeppelin Album](https://upload.wikimedia.org/wikipedia/en/e/ef/Led_Zeppelin_-_Led_Zeppelin_%281969%29_front_cover.png)
+[Led Zeppelin III Album](https://upload.wikimedia.org/wikipedia/en/5/5f/Led_Zeppelin_-_Led_Zeppelin_III.png)
+[Coda Album](https://upload.wikimedia.org/wikipedia/commons/c/c1/Led_Zeppelin_-_Coda.jpg)
+[Presence Album](https://upload.wikimedia.org/wikipedia/en/f/f3/Led_Zeppelin_-_Presence.jpg)
+[Physical Graffiti Album](https://upload.wikimedia.org/wikipedia/en/e/e3/Led_Zeppelin_-_Physical_Graffiti.jpg)
+
+
 Acknowledgements
 I received inspiration for this project from X
+
+# Disclaimer
+
+This website is for academic purposes only and is in no way affiliated with Led Zeppelin or any other third parties.

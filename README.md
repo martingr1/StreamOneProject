@@ -84,7 +84,7 @@ When clicked, the user will be redirected to the relevant profile in a separate 
 
 # Deployment
 
-The project is hosted in my [GitHub repository](linktofollow)
+The project is hosted in my [GitHub repository](https://martingr1.github.io/bandproject/)
 
 # Credits
 

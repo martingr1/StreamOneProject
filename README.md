@@ -52,11 +52,11 @@ The project was developed with a 'mobile-first' philosophy in mind and was used 
 
 Devices used to test were:
 
-Samsung Galaxy S5
-Apple iPhone 7
-Apple iPhone X
-Apple iPad
-Apple MacBook Pro
+1. Samsung Galaxy S5
+2. Apple iPhone 7
+3. Apple iPhone X
+4. Apple iPad
+5. Apple MacBook Pro
 
 The project was able to be displayed as intended on all devices and browsers, with full responsiveness.
 

@@ -40,9 +40,9 @@ In addition, as the site becomes more complex with additional media, a search ba
 
 ## Technologies Used
 
-Bootstrap 4.0 for general layout, positioning.
-Font Awesome 4.7.0 for social media and news icons.
-jQuery for navbar collapsing on smaller devices.
+1. Bootstrap 4.0 for general layout, positioning.
+2. Font Awesome 4.7.0 for social media and news icons.
+3. jQuery for navbar collapsing on smaller devices.
 
 # Testing
 

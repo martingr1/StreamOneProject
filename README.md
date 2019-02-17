@@ -1,9 +1,8 @@
-# _Stream One User Centric Frontend Development Milestone Project for the Code Institute_
+# Stream One User Centric Frontend Development Milestone Project for the Code Institute
 
-## This is my milestone project website for a 1960's rock band (Led Zeppelin) returning to the gig scene. 
+#### This is my milestone project website for a 1960's rock band (Led Zeppelin) returning to the gig scene. 
 
-## The site highlights one video and 6 audio files from their back catalogue, has band profiles and a brief history, allows visitors to sign up to a newsletter or contact the band 
-## via a contact form to book them.
+#### The site highlights one video and 6 audio files from their back catalogue, has band profiles and a brief history, allows visitors to sign up to a newsletter or contact the band via a contact form to book them.
 
 
 # UX
@@ -21,9 +20,9 @@ contact the band if they wanted to book them for a private event as well as sign
 2) As a fan of Led Zeppelin I want to access the band's back catalogue so I can listen to their music and watch video.
 3) As a fan of Led Zeppelin I want to sign up to social media and a newsletter so that I can be kept informed of tour dates and album releases.
 
-## Wireframes and mockups are [here](linktofollow)
+[Original mockup here](https://github.com/martingr1/bandproject/tree/master/assets/Mockups)
 
-## _Features_
+# Features
 
 # Existing Features
 
@@ -39,13 +38,13 @@ I would also like to implement modal confirmation messages upon successful form 
 
 In addition, as the site becomes more complex with additional media, a search bar on the navbar would be implemented.
 
-## _Technologies Used_
+## Technologies Used
 
 Bootstrap 4.0 for general layout, positioning.
 Font Awesome 4.7.0 for social media and news icons.
 jQuery for navbar collapsing on smaller devices.
 
-# _Testing_
+# Testing
 
 ## Responsiveness
 
@@ -83,11 +82,11 @@ If all inputs are correct, the page will reload.
 A user is also able to navigate to the relevant social media profiles for the band using the linked icons in the footer at the bottom of each page.
 When clicked, the user will be redirected to the relevant profile in a separate browser.
 
-# _Deployment_
+# Deployment
 
 The project is hosted in my [GitHub repository](linktofollow)
 
-# _Credits_
+# Credits
 
 ## Content
 
@@ -110,10 +109,6 @@ The photos used in this site were obtained from the following:
 [Coda Album](https://upload.wikimedia.org/wikipedia/commons/c/c1/Led_Zeppelin_-_Coda.jpg)
 [Presence Album](https://upload.wikimedia.org/wikipedia/en/f/f3/Led_Zeppelin_-_Presence.jpg)
 [Physical Graffiti Album](https://upload.wikimedia.org/wikipedia/en/e/e3/Led_Zeppelin_-_Physical_Graffiti.jpg)
-
-
-Acknowledgements
-I received inspiration for this project from X
 
 # Disclaimer
 

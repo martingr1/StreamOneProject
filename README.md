@@ -1,4 +1,4 @@
-# Stream One User Centric Frontend Development Milestone Project for the Code Institute
+# Band Project Website
 
 #### This is my milestone project website for a 1960's rock band (Led Zeppelin) returning to the gig scene. 
 
